@@ -1,6 +1,6 @@
 console.log("hello!");
 document.body.innerHTML = "<h1 id='name'></h1><h6 id='time' style='color:grey'></h6><p id='temp'></p><p id='cap'></p>";
-var intervalID = setInterval(updateData(), 10000);
+var intervalID = setInterval(updateData, 30000);
           
 
 function getData()

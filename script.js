@@ -13,7 +13,7 @@ function getData()
 
 function updateData() {
   let d = getData();  
-  document.getElementById("name") = d.name;
-  document.getElementById("temp") = "Temperature: " + d.temp + "º C";
-  document.getElementById("temp") = "Capacitance (~100-2000): " + d.cap;
+  document.getElementById("name").innerText = d.name;
+  document.getElementById("temp").innerText = "Temperature: " + d.temp + "º C";
+  document.getElementById("temp").innerText = "Capacitance (~100-2000): " + d.cap;
 }

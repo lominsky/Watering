@@ -1,5 +1,5 @@
 console.log("hello!");
-document.body.append("<h1 id='name'></h1><p id='temp'></p><p id='cap'></p>");
+document.body.innerHTML = "<h1 id='name'></h1><p id='temp'></p><p id='cap'></p>";
 var intervalID = setInterval(updateData(), 30000);
           
 

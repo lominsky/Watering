@@ -15,5 +15,5 @@ function updateData() {
   let d = getData();  
   document.getElementById("name").innerText = d.name;
   document.getElementById("temp").innerText = "Temperature: " + d.temp + "º C";
-  document.getElementById("temp").innerText = "Capacitance (~100-2000): " + d.cap;
+  document.getElementById("cap").innerText = "Capacitance (~100-2000): " + d.cap;
 }
